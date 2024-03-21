@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - colide
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - frontmountain
   - Water
   - UI
-  - 
-  - 
+  - aircraft
+  - backmountain
   - 
   - 
   - 
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: frontmountain
+    uniqueID: 1123019687
+    locked: 0
+  - name: aircraft
+    uniqueID: 196507975
+    locked: 0
+  - name: backmountain
+    uniqueID: 2204204971
     locked: 0
